@@ -1,0 +1,123 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{A new architecture for Cognitive Internet of Things and Big Data}
+\author{Mohammed Saifaeddine HADJ SASS,Faiza GHOZZI JEDIDI}
+
+\begin{document}
+
+\maketitle
+\section{Summary}
+
+\subsection{Introduction}
+Big data and Internet of Things(IoT) are considered as the main models for defining new information architecture projects.The new architecture proposed in this paper between Cognitive Internet of Things(CIoT) and Big Data Analysis benefits computing mechanisms and defining the tool.The increasing volume,variety and velocity of the data generated through Iot sensors will continue to fuel the explosion of data, it also gives another responsibility to analyze data and make decisions based of quantitative analysis. The proposed big data tools in this paper are capable of handling masses of data received through the Iot devices. Using this kinds of innovative architecture.
+
+\subsection{Related Works}
+There are many various systems that exhibit similar properties but not using Iot. But the tool is capable to be a solution for the heterogeneous data sources.The time of the data and the real-time consideration for the analysis process is slow because of increasing the amount of data and using complex algorithms. Moving the data ingestion tool helps for processing the complex data transformations. High-speed links connect to enterprise data through a programmable interface to ease seamless resource management and control physical resources. Knowing which techniques and tools can fit well in data flow process is important. Authors discuss IoT architectures and classify the architectures by their domains.
+\subsubsection{Classification of Iot Architectures}
+\begin{itemize}
+    \item{Domains: Domains for smart tourism,logistics}
+    \item{Services: Mobile ticket booking, Netbanking}
+    \item{Layers: 3-layered architecture, SoA-based Architecture}
+    \item{IoT Projects:BeTaas,OpenIot}
+    \item{Wireless network: Zigbee,6LoWPAN}
+    \item{Framework:cascades,I-core}
+    \item{Security: Trust Management, Security and Privacy}
+\end{itemize}
+Process of data flow, data control and technical constraints have not been discussed. We study and analyze existing technologies, tools, and techniques from the related works and several survey papers.
+
+\subsection{Open Research issues}
+
+Cognitive Internet of Things (IoT) concept has come a long way but there are still some open research challenges in the field of data management and analysis. These include data collection, data Ingestion, data storage and data analysis as dynamic heterogeneous resources, data-centric issues, scalability, reliability, fault tolerance, context awareness, cost, security, privacy, and data quality. In the following, we discuss some of the technical challenges due to 3V (volume, variety, velocity) problems.
+
+\begin{itemize}
+    \item {Volume:The IoT devices generate high volume of data every millisecond and transmitted rapidly, hence the volume of incoming data is high.Some data store can have an insufficient store space such as the Hadoop cluster that needs to have space for MapReduce jobs, other workloads and for the data storage requirements. Data volumes coming from sensors or other data sources can bypass the storage capacity of a Hadoops cluster.}
+    \item{Variety:Entropies finds it so difficult to deal with the raw, semi-structured, and structured data by traditional tools. Interoperability between various sources of data from differentsystems is very challenging in IoT because of heterogeneoustyrannic nature of data.}
+    \item{Velocity:Data delivery in big data has to be able to handle high velocity i.e. the ingestion from various devices to the database would be continuously moving at a certain speed.The frequency of data is the rate at which massive amounts of data are shared and processed.}
+\end{itemize}
+
+\subsection{Basic Concepts of IoT}
+The Internet of Things (IoT) allows people and things to be connected at any time, anyplace, with anything and anyone, ideally using any path/ network and any service. The IoT bundles many emerging technologies such as sensors, actuators, semantics, context-aware computing, big data analytics, communication technologies, data lake, service management. In this section, the authors presented the following subsections as the most IoT sub-layers for IoT system. The intention will be oriented on the generic IoT architecture, well on the concept of cognitive IoT paradigm and architecture.
+
+\subsubsection{Generic Iot Architecture}
+\begin{itemize}
+    \item{Perception layer: It has the ability to perceive, detect,gather and exchange information with various IoT devices. Obtains data from sensors such as cameras, sensors and RFID}
+    \item{Network layer: This layer forwards the data received from perception layer to application layer using internet. This layer can be divided into 2 layers:\begin{itemize}
+        \item{Data Exchange layer: Handles transparent transmission of data}
+        \item{Information Integration layer: Aggregates, cleans, extracts the data. }
+    \end{itemize}}
+    \item{Application layer: It creates a smart environment. It receives information and processes it and deliver to end user. Seamless integration between IoT environment with intelligence leads to cognitive IoT.} 
+\end{itemize}
+\subsubsection{Cognitive IoT}
+Cognitive Internet of Things (CIoT) is the merge of cognitive computing technologies with collected data from connected devices. The evolution of ubiquitous computing leads to heterogeneous infrastructure challenges. Cognitive IoT handles those challenges represented in context awareness by producing a smart system. Data produced by IoT devices and web data are sensing through context management middle-ware.
+\subsubsection{Cognitive IoT architecture}
+\begin{itemize}
+    \item{Service: Provides frameworks for intelligent services}
+    \item{Knowledge and decision making: Controls the services, manages information and performs Big Data Analytics}
+    \item{Information extraction and context management: Performs Data consumption and integration.}
+    \item{Perception and data exchange: Senses the data through IoT devices or Web data.}
+\end{itemize}
+\subsubsection{Data flow based CIoT}
+The Internet of Things (IoT) is exploding, and entropies are constantly trying to keep up with the increasing volume, variety, and velocity of data produced by these devices. Entropies finds it so difficult to deal with the raw, semi-structured, and structured data,various system architectures are used to handle data flow from an input source to the desired output that is desired.
+\subsubsection{Architecture of data flow}
+\begin{itemize}
+    \item{Data sources: The data is obtained from the source.}
+    \item{Data collection: Data collection is dealing with the collection of data (actively or passively) from a device, system, or as a result of its interactions.}
+    \item{Extract, Transform and Load ETL: Has the most important components which are extract, transform and load process and allows data manipulation from various data sources.}
+    \item{Data Ingestion: Transformation of input data source to output data source.}
+    \item{Data Storage: Huge volume and velocity of collected data is stored in a data storage.}
+    \item{Data Wrangling: Process of mapping raw data to another format in which the required data is to be identified, extracted, cleaned and integrated.}
+    \item{Business Analytics: Business analytics will be able to explore data in preparation for data modeling such as service.}
+    \item{Data Analysis: Creates insight from the output of data wrangling.}
+    \item{Service: Creates visual representation of the data.}
+    \item{Data Distribution: Analyzes results and makes informtion and dispalys as a conceptual model or application interface to end-user.}
+    \item{Metadata: The provenance of each data item such as the different data processing, transformation
+    phases, and analysis techniques.}
+    \item{Data quality: Handles data quality problems in the phases.}
+    \item{Privacy and Security: Uses all the methods and techniques to ensure the privacy of the stored data and prevent data losses. }
+\end{itemize}
+\subsubsection{New architecture for CIoT and Big Data}
+A tool is required to collect data from various sources using smart device features such as human sensors, user input, documents, environmental sensor, and movement. This tool can extract and recognize data from unstructured data which is a big challenge for smart devices. In the knowledge and decision making layer, the output data from this tool and other data can be extracted and loaded into a central storage such as "DL".
+\section{My Views}
+The architecture proposed in this paper is suitable for all projects that deal with large quantity of data. Users can configure the tool without any technical assistance. The authors proposed automated functions such as capturing data through sensors to locate and track the user movements. The architecture solves the real time consideration by sending the collected data to be ingested in the problem. The speed of data flow in the architecture can be controlled using data analysis technologies such ELT. Data Lake and Data Warehouse are combined to improve complex data transformation.
+
+The architecture proposed in this paper has been created by analyzing the existing technologies, tools and techniques.There are some limitations due to 3V(Variety, Velocity,Volume), which has been solved by merging Data Lake and Data Warehouse. The architecture proposed in this paper can be very useful since the entire process from data collection to analysis and presentation of data analysis is performed using CIoT is very useful. This tool solves the speed of data flow. In future the tool can be enhanced using new methods such as deep learning for extracting and recognizing the data from data sources that could be used to improve the data collection, in addition to real cases of the implementation of the approach.
+
+\section{Agreement, Pitfalls and Fallacies}
+\begin{itemize}
+    \item{Big data and Internet of Things are considered as the main paradigms when defining new information architecture projects}
+    \begin{itemize}
+        \item{Agreed to an extent}
+        \item{Both the technologies are useful and can work in hand in hand since entire data control flow is covered.}
+    \end{itemize}
+    \item{The architectures which have described in earlier make cognitive IoT concept feasible,there are still some open research challenges.}
+    \begin{itemize}
+        \item{Agreed}
+        \item{There are some limitations due to huge data generated every millisecond. The data generated can't be stored without proper technologies.}
+    \end{itemize}
+    \item{Cognitive IoT infuses intelligence into the physical world through physical objects.}
+    \begin{itemize}
+        \item{Not Agreed}
+        \item{Every logical thinking a human can perform can't be replicated or can't be solved by CIoT.}
+    \end{itemize}
+    \item{The increasing volume, variety, and velocity of data produced by the Internet of Things will keep going to fuel the information exploding.}
+    \begin{itemize}
+        \item{Agreed}
+        \item{Huge data will keep the information and data received exploding only since the data generated is huge.}
+    \end{itemize}
+    \item{Our architecture is suitable for all projects that deal with the large quantity of data. In addition, users can configure the tool without any technical assistance.}
+    \begin{itemize}
+        \item{Agreed}
+        \item{Any user can understand this architecture since it is a non-technical and easy concept.}
+    \end{itemize}
+\end{itemize}
+\section{Submitted by:}
+\begin{itemize}
+    \item {Bhavesh Kumar B}
+    \item{21011101031}
+    \item{AI & DS-A}
+\end{itemize}
+
+
+
+\end{document}
